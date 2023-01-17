@@ -19,6 +19,17 @@ Jogo que possui o desafio adivinhar o número secreto.
 <img src="https://user-images.githubusercontent.com/93163125/212195910-dcb71905-074e-4033-8aa8-38b455d2dbab.png" width ="200px" />
 </div>
 
+# Outras opções
+
+Também pode falar...
+<ul>
+    <li>Game Over = Encerrar o jogo</li>
+    <li>Jogar novamente = Volta o jogo do início</li>
+ </ul>
+ 
+Possui outras palavras, mas fica como easter egg. 
+Dica: não xingue fale palavrão para o pobre robô. 
+
 # Speech API 
 
 A Speech API foi usada neste projeto para fazer o reconhecimento de voz.
@@ -26,3 +37,11 @@ A Speech API foi usada neste projeto para fazer o reconhecimento de voz.
 
 # Aprendizado
 
+<ul>
+  <li>Aplicando estilos no JavaScript</li>
+  <li>Aplicando a função Math.random</li>
+  <li>Definindo a voz com Web Speech</li>
+  <li>Criando a lógica do jogo</li>
+  <li>Foram feitas 38 de 38 atividades.</li>
+ </ul>
+ 
