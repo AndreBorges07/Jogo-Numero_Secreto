@@ -45,3 +45,6 @@ A Speech API foi usada neste projeto para fazer o reconhecimento de voz.
   <li>Foram feitas 38 de 38 atividades.</li>
  </ul>
  
+# Certificado: JAVASCRIPT: VALIDAÇÕES E RECONHECIMENTO DE VOZ
+
+Acesse aqui: https://cursos.alura.com.br/certificate/andreBorges07/javascript-validacoes-reconhecimento-voz
