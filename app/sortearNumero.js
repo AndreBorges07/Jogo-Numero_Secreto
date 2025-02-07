@@ -8,7 +8,8 @@ function gerarNumeroAleatorio () {
     
 }
 
-console.log('Número secreto é: ', numeroSecreto);
+// console.log('Número secreto é: ', numeroSecreto);
+console.log('Abriu o console pra quê? Vai roubar no jogo não, né?');
 
 const elementoMenorValor = document.getElementById('menor-valor');
 elementoMenorValor.innerHTML = menorValor;
