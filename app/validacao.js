@@ -19,6 +19,20 @@ function verificaChuteValido(chute){
 
             window.location.reload()
         } 
+        if (chute.toUpperCase().includes("ANDRÉ BORGES") || chute.toUpperCase().includes("ANDREA BORGES")) { 
+
+            document.body.innerHTML =
+                `
+                <h1>Disse o nome de quem me criou!</h1>
+                <h3>Veja esse e mais projetos em seu GitHub: <a href="https://github.com/AndreBorges07" target="_blank">https://github.com/AndreBorges07</a></h3>
+                <br><br>
+                <h3> Obrigado por jogar!</h3><br>
+                <h3> Com carinho 🧡, André Borges</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "--primary-color";
+        } 
         
         //---------Respostas para pessoas sem vocabulário------
 
@@ -127,7 +141,7 @@ function verificaChuteValido(chute){
                 `
                 document.body.style.color = "red";
         }
-        
+
         else {
 
             elementoChute.innerHTML += '<div>Valor inválido</div>';
