@@ -22,7 +22,7 @@ function verificaChuteValido(chute){
         
         //---------Respostas para pessoas sem vocabulário------
 
-        if (chute.toUpperCase() === "P****") { 
+        if (chute.toUpperCase().includes("P****")) { 
 
             document.body.innerHTML =
                 `
@@ -33,12 +33,93 @@ function verificaChuteValido(chute){
                 `
                 document.body.style.color = "red";
         } 
-        
-        if (chute.toUpperCase() === "C******") {
+
+        if (chute.toUpperCase().includes("M****")) { 
+
+            document.body.innerHTML =
+                `
+                <h1>MER** é o que você vai limpar se não parar de falar palavrão!"</h1>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        } 
+        if (chute.toUpperCase().includes("BOSTA")) { 
+
+            document.body.innerHTML =
+                `
+                <h1>"Bosta" é o que você vai comer se continuar assim!</h1>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        } 
+        if (chute.toUpperCase().includes("V**************")) { 
+
+            document.body.innerHTML =
+                `
+                <h1>Já fui, mas lá estava lotado de gente que fala palavrão. <br>
+                Voltei pra te dar um sermão!</h1>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        } 
+        if (chute.toUpperCase().includes("V***********")) { 
+
+            document.body.innerHTML =
+                `
+                <h1>Você não sabe jogar e fica xingando, vou hachear seu aparelho...</h1>
+                <h2>Sem palavrão!</h2>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        } 
+        if (chute.toUpperCase().includes("ARROMBAD")) { 
+
+            document.body.innerHTML =
+                `
+                <h1>Arrombado(a) é o que você vai ficar se não parar de me xingar!</h1>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        } 
+        if (chute.toUpperCase().includes("C******")) {
 
             document.body.innerHTML =
                 `
                 <h1>Você disse "baralho", certo?</h1>
+                <h2>Sem palavrão!</h2>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        }
+        if (chute.toUpperCase().includes("f***")) {
+
+            document.body.innerHTML =
+                `   
+                <h1>Você tá me xingando, seu sem vergonha?!</h1>
+                <h2>Sem palavrão!</h2>
+                <h3>Pressione o botão para jogar novamente</h3>
+                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <h4>Ou diga <strong>"jogar novamente"</strong></h4>
+                `
+                document.body.style.color = "red";
+        }
+        if (chute.toUpperCase().includes("F************")) {
+
+            document.body.innerHTML =
+                `   
+                <h1>Você tá me xingando, seu sem vergonha?!</h1>
                 <h2>Sem palavrão!</h2>
                 <h3>Pressione o botão para jogar novamente</h3>
                 <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
