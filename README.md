@@ -28,7 +28,7 @@ Também pode falar...
  </ul>
  
 Possui outras palavras, mas fica como easter egg. 
-Dica: não xingue fale palavrão para o pobre robô. 
+Dica: não xingue e nem fale palavrão para o pobre robô. 
 
 # Speech API 
 
